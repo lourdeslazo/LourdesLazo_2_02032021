@@ -68,11 +68,15 @@ nav li:last-child a:hover{
 
 /*Filtres*/
 
-.location{
+form {
+	margin-bottom: -7px;
+	margin-top: 13px;}
+
+label {
 	background-color: #F2F2F2;
 	border-radius: 8px 0px 0px 8px;
 	border-style: none;
-	padding: 8px;}
+	padding: 8.5px;}	
 
 input {
 	border-color: #F2F2F2;
@@ -82,7 +86,8 @@ input {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	margin-left: 0;}
+	margin-left: -3px;
+    margin-right: -1px;}
 
 #search {
 	background-color: #0065FC;
@@ -92,7 +97,7 @@ input {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	color: #ffffff;
+	color: #fff;
 	padding-left: 8px;
 	padding-right: 8px;}
 
@@ -100,7 +105,8 @@ input {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-    align-items: center;}
+    align-items: center;
+	margin-bottom: -5px;}
 
 #boxfilter ul {
 	display: flex;
@@ -114,7 +120,7 @@ input {
 	border-radius: 30px;
 	width: auto;
 	height: 26px;
-	color: #000000;
+	color: #000;
 	font-size: 0.6em;
 	font-weight: bold;
     position: relative;
@@ -125,7 +131,7 @@ input {
 	margin-right: 15px;}
 
 .text:hover {
-    box-shadow: 0 0 10px #cccccc;}
+    box-shadow: 0 0 10px #ccc;}
 
 .icon {
 	background-color: #DEEBFF;
@@ -135,16 +141,14 @@ input {
 	border-style: none;
 	color: #0065FC;
 	position: absolute;
-   left: -4px;
-   text-align: center;
-   line-height: 30px;}
-
-#filter{margin-right: 15px;}
+    left: -4px;
+    text-align: center;
+    line-height: 30px;}
 
 .fa-info {
-	background-color: #ffffff;
+	background-color: #fff;
 	border-radius: 50%;
-	border-color: #cccccc;
+	border-color: #ccc;
 	border: 1px;
 	width: 16px;
 	height: 14px;
