@@ -297,79 +297,83 @@ aside figure img {
 	margin-bottom: 0;}
 
 #activities{
-	display: flex;}
+	display: flex;
+	margin-top: -10px;}
 
-.activities{
+.activitiesbigger{
 	display: flex;
 	flex-direction: column;
-	background-color: #ffffff;
+	background-color: #fff;
 	border-radius: 10px;
-	height: 260px;
-	box-shadow: 0px 0px 10px #cccccc;
-	margin-right: 25px;}	
+	height: 300px;
+	width: 206px;
+	box-shadow: 0px 0px 10px #e6e6e6;}	
 
-.activities figure {
-	height: 225px;
-	width: 100%;
-	margin: 0;}
-
-.activities figure img {
+.activitiesbigger img {
 	object-fit: cover;
+	height: 270px;
 	width: 100%;
-	height: 100%;
-    border-radius: 10px 10px 0px 0px;}
+	margin:0;
+	border-radius: 10px 10px 0px 0px;}
 
 .textactivities{
-	line-height: 8px;
+	line-height: 10px;
 	padding-left: 12px;}
 
-.activitiessecond{
+.activitiesbox{
 	display: flex;
-	flex-grow: 2;
 	flex-direction: column;}
 
-.activitiessecond2{
-	display: flex;
-	flex-direction: column;
-	background-color: #ffffff;
-	border-radius: 10px;
-	height: 117px;
-	box-shadow: 0px 0px 10px #cccccc;
+.activitiesbig{
+	height: 160px;
+	margin-bottom: 23px;
+	margin-left: 25px;}	
+
+.activitiesbig img {
+	object-fit: cover;
+	height: 125px;
+	width: 100%;
+	margin:0;
+	border-radius: 10px 10px 0px 0px;}
+
+.activitiesmedium{
+	height: 118px;
 	margin-bottom: 25px;
-    margin-right: 25px;}	
-
-.activitiessecond2 figure {
-	height: 80px;
-	width: 100%;
-	margin: 0;}
-
-.activitiessecond2 figure img {
+	margin-right: 25px;
+	margin-left: 25px;}	
+	
+	   
+.activitiesmedium img {
 	object-fit: cover;
+	height: 82px;
 	width: 100%;
-	height: 100%;
-    border-radius: 10px 10px 0px 0px;}
+	margin:0;
+	border-radius: 10px 10px 0px 0px;}	
 
-.activitiessecond3{
-	display: flex;
-	flex-direction: column;
-	background-color: #ffffff;
-	border-radius: 10px;
-	height: 117px;
-	box-shadow: 0px 0px 10px #cccccc;
-	margin-bottom: 25px;}	
-
-.activitiessecond3 figure {
-	height: 80px;
-	width: 100%;
-	margin: 0;}
-
-.activitiessecond3 figure img {
+.activitiessmall{
+	height: 130px;
+	margin-bottom: 25px;
+	margin-left: 25px;}
+	
+.activitiessmall img {
 	object-fit: cover;
+	height: 95px;
 	width: 100%;
-	height: 100%;
-    border-radius: 10px 10px 0px 0px;}    
+	margin:0;
+	border-radius: 10px 10px 0px 0px;}	
 
+.activitiessmaller{
+	height: 147px;
+	margin-left: 25px;}
+	
+.activitiessmaller img {
+	object-fit: cover;
+	height: 113px;
+	width: 100%;
+	margin:0;
+	border-radius: 10px 10px 0px 0px;}	
 
+   
 /*footer*/
 
 footer{
@@ -381,12 +385,10 @@ footer{
 .footernav {
 	display: flex;
 	flex-direction: column;
-	line-height: 18px;
 	width: 35%;}
 
 .footernav ul {
-	display: flex;
-	flex-direction: column;
 	padding-left: 0;
 	list-style-type: none;
-	font-size: 0.6em;} 
+	font-size: 0.6em;
+	line-height: 18px;} 
