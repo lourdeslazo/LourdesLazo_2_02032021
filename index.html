@@ -17,41 +17,42 @@
   </head>
 
   <body>
-    <div id="main">
-      <header>
-        <div>
-          <img src="images/Reservia.svg" alt="logo Reservia" />
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#hosting"> Hébergements</a>
-            </li>
-            <li>
-              <a href="#activitiesbox">Activités</a>
-            </li>
-            <li><a href="#">S'inscrire</a></li>
-          </ul>
-        </nav>
-      </header>
-
+    <header>
       <div>
+        <img src="images/Reservia.svg" alt="logo Reservia" />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#hosting"> Hébergements</a>
+          </li>
+          <li>
+            <a href="#titleactivities">Activités</a>
+          </li>
+          <li><a href="#">S'inscrire</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="filters">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
         <p>En plein centre ville ou en pleine nature</p>
 
         <form>
           <p>
-            <label for="hebergements">
+            <label for="lodging">
               <i class="fas fa-map-marker-alt"></i>
             </label>
             <input
               type="text"
               name="hebergements"
-              id="hebergements"
+              id="lodging"
               value="Marseille, France"
             />
             <input type="submit" value="Rechercher" id="search" />
+            <span><i class="fas fa-search"></i></span>
           </p>
         </form>
 
@@ -170,7 +171,7 @@
             </a>
 
             <a href="delamer.html">
-              <div class="lodgeboxup lodgeboxdown">
+              <div class="lodgeboxup">
                 <figure>
                   <img src="images/delamer.jpg" alt="Hôtel de la mer" />
                 </figure>
@@ -190,7 +191,7 @@
             </a>
 
             <a href="lepanier.html">
-              <div class="lodgeboxup lodgeboxdown">
+              <div class="lodgeboxup">
                 <figure>
                   <img src="images/lepanier.jpg" alt="Auberge Le Panier" />
                 </figure>
@@ -210,7 +211,7 @@
             </a>
 
             <a href="chezamina.html">
-              <div class="lodgeboxup lodgeboxdown">
+              <div class="lodgeboxup">
                 <figure>
                   <img src="images/chezamina.jpg" alt="Hôtel Chez Amina" />
                 </figure>
@@ -245,7 +246,7 @@
             </div>
           </div>
 
-          <div class="popularbox">
+          <div id="popularbox">
             <a href="lesoleildumatin.html">
               <div class="popular">
                 <figure>
@@ -318,37 +319,32 @@
         </aside>
       </div>
 
-      <section id="activitiesbox">
-        <div>
-          <h5>Activités à Marseille</h5>
-        </div>
+      <div id="titleactivities"><h5>Activités à Marseille</h5></div>
 
+      <section id="activitiesbox">
         <div id="activities">
           <a href="vieuxport.html">
             <div class="activitiesbigger">
               <img src="images/vieuxport.jpg" alt="Vieux Port" />
-              <div class="textactivities">
-                <h4>Vieux Port</h4>
-              </div>
+
+              <h4>Vieux Port</h4>
             </div>
           </a>
 
           <div class="activitiesbox">
             <a href="fortpomegues.html">
-              <div class="activitiesbigger activitiesbig">
+              <div class="activitiesbig">
                 <img src="images/fortdepomegues.jpg" alt="Fort de Pomègues" />
-                <div class="textactivities">
-                  <h4>Fort de Pomègues</h4>
-                </div>
+
+                <h4>Fort de Pomègues</h4>
               </div>
             </a>
 
             <a href="ilesfrioul.html">
-              <div class="activitiesbigger activitiesmedium">
+              <div class="activitiesmedium">
                 <img src="images/ilesdefrioul.jpg" alt="Iles du Frioul" />
-                <div class="textactivities">
-                  <h4>Îles du Frioul</h4>
-                </div>
+
+                <h4>Îles du Frioul</h4>
               </div>
             </a>
           </div>
@@ -359,63 +355,60 @@
                 src="images/lescalanques.jpg"
                 alt="Parc national des Calanques"
               />
-              <div class="textactivities">
-                <h4>Parc National des Calanques</h4>
-              </div>
+
+              <h4>Parc National des Calanques</h4>
             </div>
           </a>
 
           <div class="activitiesbox">
             <a href="notredamegarde.html">
-              <div class="activitiesbigger activitiessmall">
+              <div class="activitiessmall">
                 <img
                   src="images/notredamegarde.jpg"
                   alt="Notre-Dame-de-la-Garde"
                 />
-                <div class="textactivities">
-                  <h4>Notre-Dame-de-la-Garde</h4>
-                </div>
+
+                <h4>Notre-Dame-de-la-Garde</h4>
               </div>
             </a>
 
             <a href="parclongchamp.html">
-              <div class="activitiesbigger activitiessmaller">
+              <div class="activitiessmaller">
                 <img src="images/parclongchamp.jpg" alt="Parc Longchamp" />
-                <div class="textactivities">
-                  <h4>Parc Longchamp</h4>
-                </div>
+
+                <h4>Parc Longchamp</h4>
               </div>
             </a>
           </div>
         </div>
       </section>
+    </main>
 
-      <footer>
-        <div class="footernav">
-          <h2>A propos</h2>
-          <ul>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales de vente</li>
-            <li>Données et confidentialité</li>
-          </ul>
-        </div>
+    <footer>
+      <div class="footernav">
+        <h2>A propos</h2>
+        <ul>
+          <li>Fonctionnement du site</li>
+          <li>Conditions générales de vente</li>
+          <li>Données et confidentialité</li>
+        </ul>
+      </div>
 
-        <div class="footernav">
-          <h2>Nos hébergements</h2>
-          <ul>
-            <li>Charte qualité</li>
-            <li>Soumettre votre hôtel</li>
-          </ul>
-        </div>
+      <div class="footernav">
+        <h2>Nos hébergements</h2>
+        <ul>
+          <li>Charte qualité</li>
+          <li>Soumettre votre hôtel</li>
+        </ul>
+      </div>
 
-        <div class="footernav">
-          <h2>Assitance</h2>
-          <ul>
-            <li>Centre d'aide</li>
-            <li>Nous contacter</li>
-          </ul>
-        </div>
-      </footer>
-    </div>
+      <div class="footernav">
+        <h2>Assitance</h2>
+        <ul>
+          <li>Centre d'aide</li>
+          <li>Nous contacter</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
