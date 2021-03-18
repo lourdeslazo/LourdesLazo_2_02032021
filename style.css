@@ -942,10 +942,6 @@ footer {
     border-radius: 10px 10px 0px 0px;
   }
 
-  #asidetitle {
-    padding: 0 20px;
-  }
-
   .fa-star {
     padding-top: 5px;
   }
@@ -966,34 +962,56 @@ footer {
 
   .activitiesbigger {
     width: 100%;
-    height: 170px;
+    height: 250px;
     margin-bottom: 20px;
   }
 
   .activitiesbigger img {
-    height: 130px;
+    height: 200px;
   }
 
   .activitiesbig {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+    height: 250px;
+  }
+
+  .activitiesbig img {
+    height: 200px;
   }
 
   .activitiesmedium {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
+    height: 250px;
+  }
+
+  .activitiesmedium img {
+    height: 200px;
   }
 
   .activitiessmall {
     margin-left: 0;
     width: 100%;
+    height: 250px;
+  }
+
+  .activitiessmall img {
+    height: 200px;
   }
 
   .activitiessmaller {
     margin-left: 0;
     width: 100%;
+    height: 250px;
+  }
+
+  .activitiessmaller img {
+    margin-left: 0;
+    width: 100%;
+    height: 200px;
   }
 
   footer {
