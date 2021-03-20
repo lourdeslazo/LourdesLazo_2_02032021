@@ -329,10 +329,6 @@ aside figure img {
   margin-top: -10px;
 }
 
-#titleactivities {
-  padding-left: 30px;
-}
-
 .activitiesbigger {
   display: flex;
   flex-direction: column;
@@ -460,7 +456,7 @@ footer {
   line-height: 18px;
 }
 
-/*mobile*/
+/* VErsion mobile*/
 
 @media all and (max-width: 576px) {
   h1 {
@@ -490,7 +486,7 @@ footer {
     font-size: 0.8em;
   }
 
-  /*header*/
+  /*Header*/
 
   header {
     flex-direction: column;
@@ -542,7 +538,7 @@ footer {
     border-top: none;
   }
 
-  /*filtres*/
+  /*Filtres*/
 
   form {
     margin-bottom: -10px;
@@ -760,7 +756,7 @@ footer {
   }
 }
 
-/*tablette*/
+/*Breakpoint Landscape*/
 
 @media all and (min-width: 577px) and (max-width: 768px) {
   h1 {
@@ -787,6 +783,8 @@ footer {
   p {
     font-size: 0.7em;
   }
+
+  /*Header*/
 
   header {
     flex-direction: column;
@@ -829,6 +827,8 @@ footer {
   nav li:last-child {
     padding-right: 0;
   }
+
+  /*Filtres*/
 
   form {
     margin-bottom: -10px;
@@ -898,6 +898,8 @@ footer {
     height: 14px;
   }
 
+  /*Section Principal*/
+
   #principal {
     flex-direction: column-reverse;
     padding: 0;
@@ -908,6 +910,8 @@ footer {
   .sectiontitles {
     padding-left: 22px;
   }
+
+  /*Article*/
 
   #hosting {
     margin-right: 0;
@@ -920,6 +924,8 @@ footer {
   .lodgeboxup {
     height: 170px;
   }
+
+  /*Aside*/
 
   aside {
     width: 100%;
@@ -968,8 +974,10 @@ footer {
     border-radius: 10px 10px 0px 0px;
   }
 
-  .fa-star {
-    padding-top: 5px;
+  /*Activites*/
+
+  #titleactivities {
+    margin-top: 10px;
   }
 
   #titleactivities h5 {
@@ -1038,6 +1046,8 @@ footer {
     height: 200px;
   }
 
+  /*Footer*/
+
   footer {
     flex-direction: column;
     margin-left: 0;
@@ -1055,8 +1065,10 @@ footer {
   }
 }
 
+/*Version Tablette*/
+
 @media all and (min-width: 769px) and (max-width: 992px) {
-  /*header*/
+  /*Header*/
 
   header img {
     padding-left: 30px;
@@ -1094,6 +1106,10 @@ footer {
     padding-bottom: 8px;
   }
   /*Activites*/
+
+  #titleactivities {
+    margin-top: 30px;
+  }
 
   #activitiesbox {
     padding: 0 30px;
