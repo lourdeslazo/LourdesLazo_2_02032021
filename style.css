@@ -213,8 +213,8 @@ form span {
 #lodge {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 0 15px;
+  justify-content: space-around;
+  padding: 0 30px;
   margin-top: -10px;
 }
 
@@ -456,7 +456,7 @@ footer {
   line-height: 18px;
 }
 
-/* VErsion mobile*/
+/* Version mobile*/
 
 @media all and (max-width: 576px) {
   h1 {
@@ -1240,5 +1240,43 @@ footer {
     margin-left: 5px;
 
     width: 220px;
+  }
+}
+
+/*Breakpoint 1200px-1360px*/
+
+@media all and (min-width: 1200px) and (max-width: 1360px) {
+  #titleactivities {
+    padding-left: 0;
+  }
+
+  #activities {
+    justify-content: space-between;
+  }
+
+  .activitiesbigger {
+    width: 270px;
+  }
+
+  .activitiesbig {
+    margin-left: 0;
+    margin-right: 0;
+    width: 270px;
+  }
+
+  .activitiesmedium {
+    margin-left: 0;
+    margin-right: 0;
+    width: 270px;
+  }
+
+  .activitiessmall {
+    margin-left: 0;
+    width: 270px;
+  }
+
+  .activitiessmaller {
+    margin-left: 0;
+    width: 270px;
   }
 }
