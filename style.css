@@ -315,6 +315,10 @@ aside figure img {
 
 /*Activites*/
 
+#titleactivities {
+  margin-top: 15px;
+}
+
 #activitiesbox {
   display: flex;
   flex-direction: column;
@@ -693,6 +697,10 @@ footer {
 
   /*Activites*/
 
+  #titleactivities {
+    margin-top: 0;
+  }
+
   #activitiesbox {
     padding: 0 15px;
   }
@@ -976,10 +984,6 @@ footer {
 
   /*Activites*/
 
-  #titleactivities {
-    margin-top: 10px;
-  }
-
   #titleactivities h5 {
     margin: 10px 0 30px 0;
   }
@@ -1183,6 +1187,12 @@ footer {
     padding-left: 30px;
   }
 
+  /*Article*/
+  #lodge {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   /*aside*/
 
   aside {
@@ -1206,12 +1216,7 @@ footer {
   /*Activites*/
 
   #titleactivities {
-    padding-left: 30px;
     margin-top: 30px;
-  }
-
-  #activities {
-    justify-content: space-around;
   }
 
   .activitiesbigger {
@@ -1219,25 +1224,25 @@ footer {
   }
 
   .activitiesbig {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
     width: 220px;
   }
 
   .activitiesmedium {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
     width: 220px;
   }
 
   .activitiessmall {
-    margin-left: 5px;
+    margin-left: 0;
 
     width: 220px;
   }
 
   .activitiessmaller {
-    margin-left: 5px;
+    margin-left: 0;
 
     width: 220px;
   }
@@ -1278,5 +1283,13 @@ footer {
   .activitiessmaller {
     margin-left: 0;
     width: 270px;
+  }
+}
+
+/*Breakpoint 1361px*/
+
+@media all and (min-width: 1361px) {
+  body {
+    max-width: 1360px;
   }
 }
