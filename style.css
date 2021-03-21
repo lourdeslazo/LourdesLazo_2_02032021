@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #000;
-  margin: 0;
+  margin: auto;
 }
 
 /*ordinateur*/
@@ -57,6 +57,8 @@ nav li {
 
 nav a {
   text-decoration: none;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 nav a:hover {
@@ -1289,7 +1291,17 @@ footer {
 /*Breakpoint 1361px*/
 
 @media all and (min-width: 1361px) {
-  body {
+  header {
     max-width: 1360px;
+    margin: auto;
+  }
+
+  main {
+    max-width: 1360px;
+  }
+
+  footer {
+    max-width: 1440px;
+    margin: auto;
   }
 }
