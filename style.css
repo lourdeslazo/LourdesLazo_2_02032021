@@ -1173,3 +1173,72 @@ footer {
     height: 200px;
   }
 }
+
+/*Breakpoint 993*/
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  /*header*/
+
+  header img {
+    padding-left: 30px;
+  }
+
+  /*aside*/
+
+  aside {
+    flex: 1;
+  }
+
+  .popular {
+    width: 200px;
+    height: 90px;
+  }
+
+  aside figure {
+    width: 80px;
+  }
+
+  .textpopular p {
+    padding-bottom: 12px;
+    margin-top: -8px;
+  }
+
+  /*Activites*/
+
+  #titleactivities {
+    padding-left: 30px;
+    margin-top: 30px;
+  }
+
+  #activities {
+    justify-content: space-around;
+  }
+
+  .activitiesbigger {
+    width: 220px;
+  }
+
+  .activitiesbig {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 220px;
+  }
+
+  .activitiesmedium {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 220px;
+  }
+
+  .activitiessmall {
+    margin-left: 5px;
+
+    width: 220px;
+  }
+
+  .activitiessmaller {
+    margin-left: 5px;
+
+    width: 220px;
+  }
+}
